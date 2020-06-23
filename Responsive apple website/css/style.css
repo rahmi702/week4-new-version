@@ -1,0 +1,430 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	max-width:100%;
+}
+body{
+	font-size: 20px;
+	font-family: 'montserrat' , sans-serif;
+	line-height: 1.5;
+	color:#000;
+
+}
+
+.header-wrapper {
+	background: rgba(0,0,0,0.8);
+	font-weight: 200;
+	font-size: 0.75em;
+	
+}
+.logo-link  { 
+	width: 18px;
+	display: block;
+}
+.search-link, .cart-link{
+	width:55px;
+	display:block;
+	padding: 0 20px !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar{
+	padding: 0;
+}
+.navbar-brand{
+	padding:0;
+}
+.navbar-nav .nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+	height:44px;
+	line-height: 44px;
+}
+.navbar-nav .nav-link :hover{
+	opacity:1;
+
+}
+.navbar-light .navbar-toggler-icon{
+	background-image: url("../images/icons/humberger.png");
+}
+.covid-wrapper{
+	display: block;
+
+}
+.Evaluate-wrapper {
+	background-color: #0071E3;
+	color:#fff;
+	text-align: center;
+	font-size:12px;
+	height:44px;
+	padding: 12px 0;
+	margin: 0 auto;
+	font-weight: 500;
+
+}
+.Evaluate-wrapper a{
+	color:#fff;
+	text-align: center;
+}
+.Evaluate-wrapper a:after{
+	font-family: "fontawesome";
+	content: "\f105";
+	padding-left: 5px;
+	font-weight: 500;
+
+}
+.shop-wrapper{
+	background-color:#fff;
+	color:#1d1d1f;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:12px;
+	height:44px;
+	padding: 12px 0;
+	margin: auto;
+	font-weight: 500;
+	text-align: center;
+	display:block;
+}
+.main-highlight-wrapper{
+	background-image: url(../images/home/black-apple2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: block;
+	color:white;
+	padding: 10px 0;
+	height:470px;
+}
+.link-wrapper ul{
+	list-style: none;
+}
+
+.product-title{
+	font-weight: 600;
+	font-size:25px;
+	
+}
+.brief-discription-wrapper{
+	font-size: 20px;
+	font-weight: 500;
+	padding:5px;
+}
+.links-wrapper{
+	padding: 0 0 15px;
+	font-size: .75em;
+
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.price-wrapper{
+	color:grey;
+	font-size: .75em;
+	
+}
+.links-wrapper ul li a {
+	color: #06c;
+	text-decoration: none;
+}
+.links-wrapper ul li:hover {
+	text-decoration: underline;
+}
+/*.links-wrapper ul li a after:hover{
+	text-decoration: none;
+}*/
+.links-wrapper ul li a:after{
+	font-family: "fontawesome";
+	font-weight: 900;
+	content: "\f105";
+	padding-left: 10px;
+}
+.second-highlight-wrapper{
+	background-image: url("../images/home/multi-phone2.jpg");
+	height:636px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: left;
+	padding: 30px 40px;	
+	margin-top: 10px;
+
+}
+.product-title-wrapper{
+	font-weight: 700;
+	font-size: 56px;
+}
+
+.third-highlight-wrapper{
+	background-image: url(../images/home/mac-pro.jpg);
+	height:636px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+	padding: 20px;
+	margin-top: 10px;	
+}
+.fourth-highlight-wrapper{
+	background: #fff;
+}
+.col-lg-6.left-side-wrapper{
+	padding-left: 0;
+	padding-right: 0;
+}
+.left-side-inner-wrapper{
+	margin:1% 0.5% 0% 1%;
+}
+.fourth-highlight-wrapper .left-side-inner-wrapper{
+	background-image: url("../images/home/CEO.jpg");
+	height:580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 54px;
+}
+.wwdc-discription-wrapper{
+	color:#fff;
+}
+.right-side-inner-wrapper {
+	margin:1% 1% 0px 0.5%; 
+}
+.fourth-highlight-wrapper .right-side-inner-wrapper{
+	background-image: url("../images/home/WWDC.jpg");
+	height:580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 54px;
+}
+.ceo-wrapper a{
+	font-size: 0.75em;
+}
+.ceo-wrapper a:after{
+	
+	font-family: "fontawesome";
+	font-weight: 900;
+	content: "\f144";
+	padding-left: 10px;
+}
+.wwdc-logo-wrapper{
+	width:200px;
+	margin-left: 200px;
+	padding-bottom: 20px;
+}
+.wwdc-description-wrapper{
+	color: #fff;
+	padding-bottom: 20px;
+}
+.fifth-highlight-wrapper{
+	background: #fff;
+}
+.col-lg-6.left-side-wrapper{
+	padding-left: 0;
+	padding-right: 0;
+}
+.left-side-inner-wrapper{
+	margin:1% 0.5% 0% 1%;
+}
+.fifth-highlight-wrapper .left-side-inner-wrapper{
+	background-image: url("../images/home/watch.jpg");
+	height:580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 54px;
+}
+.right-side-inner-wrapper {
+	margin: 1% 1% 0% 0.5%; 
+}
+.fifth-highlight-wrapper .right-side-inner-wrapper{
+	background-image: url("../images/home/hello.jpg");
+	height:580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 54px;
+}
+.title-wrapper{
+	font-size: 35px;
+	font-weight:600;
+	line-height: 1;
+	padding-bottom: 15px;
+}
+.sixth-highlight-wrapper .left-side-inner-wrapper{
+	text-align: center;
+	background-color: #fbfbfd;
+	height:580px;
+	padding-top: 54px;
+}
+.laptop-wrapper{
+	width: 310px;
+	height:230px;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+.right-side-inner-wrapper {
+	margin: 1% 1% 0% 0.5%; 
+}
+.sixth-highlight-wrapper .right-side-inner-wrapper{
+	background-image: url("../images/home/apple-logo.jpg");
+	height:580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 54px;
+}
+.footer-wrapper{
+	background-color: #f5f5f7;
+	color: #1d1d1f;
+	font-size: .65em;
+}
+.upper-text-container a{
+	color: #515154;
+	text-decoration: none;
+}
+.upper-text-container a:hover{
+	text-decoration: underline;
+}
+.upper-text-container{
+	border-bottom: 1px solid #d2d2d7;
+	padding: 17px 0 20px;
+	color: #86868b;
+
+}
+.footer-links-wrapper{
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	padding-top: 20px;
+	margin-left: 5px;
+}
+.footer-wrapper ul {
+	list-style: none;
+	padding-bottom: 20px;
+	
+}
+
+.footer-links-wrapper h3{
+	font-size: 12px;
+	font-weight:600;
+}
+.footer-links-wrapper ul li{
+	padding: 5px 0;
+	font-size: 0.9em;
+	
+}
+.footer-links-wrapper a{
+	color:#515154;
+	text-decoration: none;
+
+}
+.my-apple-wrapper{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d2d2d7;
+	
+}
+.my-apple-wrapper a{
+	color:blue;
+}
+.my-apple-wrapper a:hover{
+	text-decoration: underline;
+}
+.copyright-wrapper{
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+}
+.copyright{
+	padding-right: 30px;
+}
+.footer-links-terms ul li {
+	display: inline-block;
+	padding: 0 5px;
+	border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child{
+	border-right: 0px;
+}
+.footer-links-terms ul li a {
+	text-decoration: none;
+	color:#515154;
+}
+
+.footer-links-terms ul li a:hover {
+	text-decoration: underline;
+}
+.footer-country {
+	display: inline-block;
+	margin-left: 200px;
+}
+.flag-wrapper{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-country-name {
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media screen and (max-width:734px ) {
+	.main-highlight-wrapper{
+		background-image: url(../images/home/black-apple.jpg);
+		background-position: bottom; 
+		background-size: 346px 326px;
+		background-color:#000000eb;
+}
+	.product-title-wrapper{
+		font-size: 28px;
+	}
+	.brief-discription-wrapper{
+		font-size:15px;
+	}
+	.price-wrapper{
+		font-size: .65em;
+	}
+	.Evaluate-wrapper{
+		height: auto;
+		margin: 0 auto;
+		display: flex;
+	}
+	.shop-wrapper{
+		margin: auto;
+		height: auto;
+		margin: 0 auto;
+		display: flex;
+		padding: 12px 0;
+
+	}
+	.second-highlight-wrapper{
+		background-size: 796px 312px ;
+		background-color: #fafafa;
+		background-position: bottom;
+
+
+	}
+	.wwdc-logo-wrapper{
+	}
+
+@media (min-width: 960px){
+	.footer-links-wrapper .col-lg-2{
+		-ms-flex:0 0 20%;
+		flex:0 0 20%;
+		max-width: 20%
+	}
+}
+
+
+
